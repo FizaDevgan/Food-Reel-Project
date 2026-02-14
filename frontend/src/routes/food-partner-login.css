@@ -1,0 +1,6 @@
+﻿/* Food Partner Login specific tweaks */
+.auth-form{display:flex;flex-direction:column;gap:14px}
+.link-row{gap:10px}
+.btn{padding:10px 18px}
+.small{font-size:12px;color:var(--muted)}
+.brand{margin-bottom:10px}

@@ -1,0 +1,98 @@
+/* ===== Page Wrapper ===== */
+.create-food-page {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #0f0b0d, #1a0f14);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", system-ui, sans-serif;
+  padding: 20px;
+}
+
+/* ===== Form Card ===== */
+.form-card {
+  background: linear-gradient(145deg, #2a0f18, #3b1422);
+  padding: 32px 40px;
+  border-radius: 24px;
+  width: 100%;
+  max-width: 480px;
+  box-shadow: 0 15px 40px rgba(255, 64, 129, 0.15);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-card h1 {
+  text-align: center;
+  font-size: 28px;
+  background: linear-gradient(135deg, #ff5c8a, #ff2f68);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* ===== Form Groups ===== */
+.food-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-group label {
+  font-size: 14px;
+  color: #ffb6c9;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px 14px;
+  border-radius: 12px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  background: #1f0c15;
+  color: #ffe6ee;
+  transition: all 0.2s ease;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #ff8fab;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  box-shadow: 0 0 0 3px rgba(255, 79, 123, 0.35);
+}
+
+/* ===== Submit Button ===== */
+.submit-btn {
+  margin-top: 10px;
+  background: linear-gradient(135deg, #ff5c8a, #ff2f68);
+  color: #1a050b;
+  font-weight: 600;
+  padding: 12px 0;
+  border: none;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  opacity: 0.95;
+}
+
+/* ===== Responsive ===== */
+@media (max-width: 480px) {
+  .form-card {
+    padding: 24px 20px;
+  }
+}

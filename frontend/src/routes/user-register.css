@@ -1,0 +1,7 @@
+﻿/* User Register specific tweaks */
+.auth-form{display:flex;flex-direction:column;gap:14px}
+.btn{margin-top:8px}
+.small{font-size:12px;color:var(--muted)}
+.brand .title{font-size:18px}
+/* subtle form divider */
+.auth-form > .form-group + .form-group{margin-top:2px}

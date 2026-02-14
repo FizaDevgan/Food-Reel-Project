@@ -1,0 +1,9 @@
+﻿/* User Login specific tweaks */
+.auth-form{display:flex;flex-direction:column;gap:14px}
+.link-row{gap:10px}
+.small{font-size:12px;color:var(--muted)}
+.btn{padding:10px 18px}
+.brand{margin-bottom:10px}
+/* inline helpers */
+.link-inline{font-size:13px;color:var(--accent-600);text-decoration:none}
+.link-inline:hover{text-decoration:underline}
